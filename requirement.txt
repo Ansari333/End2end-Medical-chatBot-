@@ -1,5 +1,15 @@
-ctransformers==0.2.5
-sentence-transformers==2.2.2
-pinecone-client==2.2.4
-langchain==0.0.225
+# LangChain Core (The main logic)
+langchain
+langchain-core
+langchain-community
+
+# Integrations
+langchain-pinecone
+
+# RAG Dependencies
+ctransformers
+sentence-transformers
+pypdf
+
+# Web Framework
 flask
